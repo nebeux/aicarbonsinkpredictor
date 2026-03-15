@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <header>
+            <h1> AI Carbon Sink Predictor </h1>
+            <i>Predict the ocean’s carbon absorption anywhere in the world to fight climate change.</i>
+        </header>
+        
+        <div id="inner-content" style="margin-left:5%; margin-top:5%; display:flex; gap:40px;">
+            <div id="user-input-wrapper" style="height:700px;">
+            <div id="map" style="height: 500px;width:500px">
+            </div>
+            <div id="input-wrapper"><br>
+                Tap any oceanic point on the map to get results!
+            </div>
+        </div>
+        <div id="results-wrapper" style="height:550px; width:800px;display: flex;justify-content: center;
+    align-items: center;">
+<h1 id="randomh1">Pin a location to get results!</h1>
+        </div>
+<div id="inner-content-2" style="display:flex;margin-left:5%; margin-top:5%; gap:40px;">
+<div id="loading-screen" style="
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: #020b18;
+    display: none; flex-direction: column;
+    justify-content: center; align-items: center;
+    z-index: 9999;">
+    <div style="
+        width: 40px; height: 40px;
+        border: 3px solid rgba(0,200,255,0.2);
+        border-top: 3px solid #00c8ff;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;">
+    </div>
+    <p id='p' style="color: rgba(0,200,255,0.7); margin-top: 16px; font-size: 13px;">ANALYZING...</p>
+     <p id='p' style="color: rgba(0,200,255,0.7); margin-top: 16px; font-size: 7px;">This takes around 1-2 minutes, do not leave the page!</p>
+</div>
+</div>
+
+<style>
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+        </div>
+</div>
+    {# dw about this lol #}
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    </body>
+</html>

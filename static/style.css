@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+html{
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+    color:white;
+    background: linear-gradient(135deg, #020b18 0%, #041428 40%, #061d35 70%, #020b18 100%);
+    min-height: 100vh;
+    margin: 0;
+}
+i{
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+    color:white;
+}
+h1{
+    margin:0;
+    padding:0;
+}
+header{
+    background: linear-gradient(135deg, #032048 30%, #041428 40%, #061d35 70%, #032048 100%);
+    margin: 0;
+    padding:30px;
+    padding-left:20px;
+    border-radius:10px;
+
+}
+#results-wrapper{
+    background: linear-gradient(135deg, #032048 30%, #041428 40%, #061d35 70%, #032048 100%);
+    border-radius:10px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#p{
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+}
+#map{
+    border-radius:10px;
+}
