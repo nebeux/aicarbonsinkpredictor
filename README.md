@@ -40,4 +40,4 @@ We used the Flask framework as it was easy to work with and everyone knew how to
 # Final Note
 We really hope you like our project, and we think it has real-world application when used correctly. It can also be used educationally as a tool to see where carbon sink rates are the highest!
 
-made with love by Krish (nebeux), Sumeet (sumeetcubing), and Adhitya (coder175)
+made with love by Krish (nebeux), Sumeet (sumeetcubing), and Adhitya (coder175) ❤️
