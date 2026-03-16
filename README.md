@@ -34,6 +34,8 @@ This was our Python file for generating **carbon_sink_20k.csv**. It uses a speci
 ## app.py
 Finally, the main part of our application, the backend, is the one and only **app.py**. What this did was fetch 5 ocean details using the coordinates from the frontend and APIs, feed them into our model, and have the model return a result, which we sent directly back to the frontend :D.
 
+# Frameworks Used
+We used the Flask framework as it was easy to work with and everyone knew how to code in Flask. 
 
 # Final Note
 We really hope you like our project, and we think it has real-world application when used correctly. It can also be used educationally as a tool to see where carbon sink rates are the highest!
